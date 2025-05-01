@@ -10,9 +10,6 @@
 	display: grid;
 	justify-content: center;
 }
-.cards-list {
-	
-}
 .card {
 	margin-bottom: 20px;
 
@@ -34,10 +31,19 @@
 	}
 }
 .card-hat {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 	height: 50px;
+	align-items: center;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: red;
+
+	i{
+		padding-right: 5vh;
+		cursor: pointer;
+	}
 	
 }
 
